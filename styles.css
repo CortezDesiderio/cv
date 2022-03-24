@@ -22,7 +22,7 @@ a {
 }
 
 .hero-container {
-  background-color: #black;
+  background-color: black;
   max-width: 100%;
   min-height: 100vh;
   background-size: cover;
