@@ -23,20 +23,14 @@ a {
 
 .hero-container {
 
-  background-image: url(Images/background-2.png) no-repeat center center;
+  background-image: url(Images/background-2.png);
   max-width: 100%;
   min-height: 100vh;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   background-attachment: fixed;
   margin: 0px;
-	display: block;
-  	position: fixed;
-	z-index: -10;
-	  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
 }
 
 
