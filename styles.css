@@ -22,7 +22,7 @@ a {
 }
 
 .hero-container {
-  background-image: url(Images/background-2.png);
+  background-color: #black;
   max-width: 100%;
   min-height: 100vh;
   background-size: cover;
