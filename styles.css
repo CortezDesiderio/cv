@@ -22,7 +22,6 @@ a {
 }
 
 .hero-container {
-
   background-image: url(Images/background-2.png);
   max-width: 100%;
   min-height: 100vh;
@@ -30,7 +29,6 @@ a {
   position: relative;
   background-attachment: fixed;
   margin: 0px;
-
 }
 
 
