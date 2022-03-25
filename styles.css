@@ -118,8 +118,7 @@ color: white;
 .about-me{
   padding: 3rem 6rem 4rem 6rem;
   text-align: left;
-  font-size: 1rem;
-	font-size: 5vw;
+  font-size: 5vw;
   background-color: #faebd7;
   background-image: url(Images/bg-1.png);
   min-height: 100vh;
