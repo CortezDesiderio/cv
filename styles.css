@@ -11,7 +11,7 @@
 html, body{
     margin: 0px;
     padding: 0px;
-    -webkit-text-size-adjust: 100%;
+    
   }
 
   #hero-section {
@@ -118,7 +118,7 @@ color: white;
 .about-me{
   padding: 3rem 6rem 4rem 6rem;
   text-align: left;
-  font-size: 5vw;
+  font-size: 10vw;
   background-color: #faebd7;
   background-image: url(Images/bg-1.png);
   min-height: 100vh;
