@@ -30,6 +30,7 @@ a {
   position: relative;
   background-attachment: fixed;
   margin: 0px;
+  background-color: #f7e08c;
 }
 
 
@@ -76,8 +77,8 @@ color: white;
   margin: 4px 130px;
   cursor: pointer;
   position: absolute;
-  top: 71rem;
-  right: 3rem;
+  margin-left: 13rem;
+  margin-top: 60rem;
   padding: 2rem;
   font-weight: 600;
   z-index: 1000;
@@ -511,7 +512,8 @@ padding: 2rem;
 font-weight: 600;
 z-index: 1000;
 border-radius: 10px;
-top: 60rem;
+margin-left: 12rem;
+margin-top: 60rem;
   }
 
 .about-me{
@@ -707,8 +709,8 @@ padding: 2rem;
 font-weight: 600;
 z-index: 1000;
 border-radius: 10px;
-top: 52rem;
-left: 4rem;
+margin-left: 19rem;
+margin-top: 50rem;
   }
 
 .about-me{
@@ -914,8 +916,8 @@ padding: 1rem;
 font-weight: 600;
 z-index: 1000;
 border-radius: 10px;
-top: 35rem;
-left: 1rem;
+margin-left: 3rem;
+margin-top: 30rem;
 width: 20rem;
   }
 
@@ -1196,7 +1198,7 @@ color: white;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-font-size: 2rem;
+font-size: 1.5rem;
 margin: 2px 50px;
 cursor: pointer;
 position: absolute;
@@ -1204,9 +1206,9 @@ padding: 1rem;
 font-weight: 600;
 z-index: 1000;
 border-radius: 10px;
-top: 30rem;
-left:-2.8rem;
-width: 20rem;
+margin-left: 2rem;
+margin-top: 5rem;
+width: 15rem;
   }
 
   #book-now-button:hover {
@@ -1514,8 +1516,8 @@ padding: 1rem;
 font-weight: 600;
 z-index: 1000;
 border-radius: 10px;
-top: 40rem;
-left: 3.5rem;
+margin-left: 10rem;
+margin-top: 5rem;
 width: 25rem;
   }
 
@@ -1764,4 +1766,60 @@ width: 25rem;
   }
 
 
+}
+
+
+/*NAVBAR*/
+
+.sidebar {
+  min-height: 100vh;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f7e08c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #5a4d20;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #ffffff;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #f7e08c;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #5a4d20;
+  color: #ffffff;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
 }
